@@ -13,10 +13,6 @@ Buatlah dalam bahasa pemrograman Python, program penerjemah sederhana yang meman
 5. Pada saat penerjemahan "Bahasa Sunda ke Bahasa Indonesia", program mampu mengenali kata yang tidak memiliki arti (stopwords), seperti "teh" sehingga dapat diabaikan saat penerjemahan.
 6. Pada saat penerjemahan "Bahasa Indonesia ke Bahasa Sunda", program mampu menambahkan kata untuk penekanan kalimat, seperti "teh".
 7. Program dapat menampilkan hasil terjemahan.
-8. Program dibuat secara individu.
-9. Peserta akan mendapatkan nilai bonus jika mengimplementasikan dalam web (untuk bahasanya dibebaskan).
-10. Dilarang meng-copy source code program yang sudah jadi, untuk source code algoritma string matching dipersilahkan menggunakan source code dari tugas yang sudah pernah dibuat (Tugas Kecil 4).
-11. Batas pengerjaannya adalah 6 Juni 2020.
 
 ## Contoh Kasus Uji
 ```
@@ -55,8 +51,45 @@ Indonesia : saya tidak bisa bahasa Sunda
 Sunda : abdi henteu tiasa bahasa Sunda
 ```
 
-## Pengumpulan
-1. Lakukan merge request dari hasil fork kalian ke repository ini
-2. Untuk demonya, silahkan membuat video demo penggunaan programnya, diupload ke YouTube dan sertakan linknya pada Readme.
+### Prerequisites
 
-### **_(Ubah file README ini pada repository hasil fork kalian)_**
+Sebelum menjalankan Program, anda harus memiliki beberapa program berikut:
+1. Phyton 3.5/ 3.6 /3.7
+    Download : https://www.python.org/downloads/
+
+2. Xampp 
+    Download : https://www.apachefriends.org/download.html
+
+3. nltk module
+    how to install : https://www.nltk.org/install.html
+    data install : http://www.nltk.org/data.html
+
+4. Web browser
+    Saya sangat menyarankan untuk menggunakan Peramban Bawaan (Microsoft Edge, Firefox, Safari) untuk menjalankan aplikasi ini.
+
+### How to use
+
+Untuk dapat menjalankan aplikasi, anda perlu mengikuti langkah-langkah berikut:
+1. Ekstrak isi file (.zip) ini ke folder xampp/htdocs
+2. Buka Xampp lalu jalankan Apache
+3. Buka browser, lalu kunjungi laman localhost/path/main.php
+4. Ikuti petunjuk yang tersedia pada laman
+
+## Built With
+
+* [Visual Studio Code](https://code.visualstudio.com/) - The IDE used
+* [Google Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjws_r0BRCwARIsAMxfDRjP5lga30im11-ODArhKSfgI7lrAffLHFLVjksk5bJpscnCwxcf2qEaAoJnEALw_wcB&gclsrc=aw.ds) - The IDE used
+
+## Authors
+
+* **Muhammad Ayyub Abdurrahman** - *Initial work* - [PurpleBooth](https://github.com/Ayyub29)
+
+## License
+
+This project is licensed under the STEI ITB
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
