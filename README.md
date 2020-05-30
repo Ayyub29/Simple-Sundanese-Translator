@@ -88,6 +88,9 @@ Untuk dapat menjalankan aplikasi, anda perlu mengikuti langkah-langkah berikut:
 
 This project is licensed under the STEI ITB
 
+## Demo Penggunaan
+menyusul
+
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
