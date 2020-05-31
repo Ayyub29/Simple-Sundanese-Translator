@@ -30,6 +30,8 @@ def kataIndexFinder(Kata, Database):
 
 def terjemahkan(Kata,Database):
     itr = kataIndexFinder(Kata,Database)
+    if (Database[itr+1] == "abdi" or Database[itr+1] == "anjeun" or Database[itr+1] == "urang" or Database[itr+1] == "manehna"):
+        return (str(Database[itr+1]) + " teh")
     return Database[itr+1]
 
 def cariDiDatabase(Kata, Database):
@@ -150,7 +152,7 @@ for j in range(len(sys.argv)):
         if (j > 0):
             kalimat += sys.argv[j]
             kalimat += " "
-            
+
 Bacod = databaseMaker(txt)
 inter = terjemahkanKalimat(kalimat,Bacod)
 
